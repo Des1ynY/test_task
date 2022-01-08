@@ -6,7 +6,7 @@ void showCustomCupertinoDialog({
   required BuildContext context,
   VoidCallback? action,
 }) {
-  showCupertinoDialog(
+  showDialog(
     context: context,
     builder: (context) {
       return CupertinoAlertDialog(

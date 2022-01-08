@@ -17,6 +17,7 @@ class AuthPage extends StatelessWidget {
           final authPinCubit = context.read<AuthPinCubit>();
 
           return Scaffold(
+            appBar: AppBar(),
             body: EnterPin(
               cubit: authPinCubit,
             ),
